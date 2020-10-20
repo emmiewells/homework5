@@ -77,6 +77,9 @@ footer{
 
 #logo{
    /*Your code here.*/
+   animation-name: logo_wiggle;
+   animation-duration: 15s;
+   align-self: center;
  
 }
 
@@ -85,6 +88,11 @@ footer{
     min-height: 500px;
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
+    display: flex;
+    align-items: cetner;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
   
 }
 
