@@ -176,6 +176,9 @@ header{
 
 .nav_links{
   /*Your code here again.*/
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .nav_item a{
@@ -195,6 +198,8 @@ header{
   /* Cards! */
   .card {
     /*Your  code here again.*/
+    flex-basis: 225px;
+    flex-wrap: wrap;
   }
 
   .card_big{
@@ -205,10 +210,15 @@ header{
   /* Navbar */
   header{
     /*Your code here again.*/  
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
   }
 
   .nav_links{
     /*Your code here again.*/  
+    justify-content: end;
+    flex-direction: row;
   }
 
   .nav_item a{
@@ -222,6 +232,20 @@ header{
   }
   /*Your code here again.*/
   /*You will want four selectors*/  
+  body{
+    background-image: none;
+  }
+  .pricing{
+    align-items: flext-start;
+    flex-direction: row;
+  }
+
+  .gallery {
+    display: none;
+  }
+  #gallery {
+    display: none;
+  }
 }
 
 /*Your code here again.*/ 
